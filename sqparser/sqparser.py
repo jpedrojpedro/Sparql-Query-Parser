@@ -657,12 +657,12 @@ if __name__ == '__main__':
     import argparse
 
     arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument('-i','--input_file', required=False)
-    arg_parser.add_argument('-o','--output_file')
-    arg_parser.add_argument('-c','--target_component', required=False)
-    arg_parser.add_argument('-t','--has_title', required=False)
-    arg_parser.add_argument('-s','--str_input', required=False)
-    arg_parser.add_argument('-m','--schema', required=False)
+    arg_parser.add_argument('-i', '--input_file', required=False)
+    arg_parser.add_argument('-o', '--output_file')
+    arg_parser.add_argument('-c', '--target_component', required=False)
+    arg_parser.add_argument('-t', '--has_title', required=False)
+    arg_parser.add_argument('-s', '--str_input', required=False)
+    arg_parser.add_argument('-m', '--schema', required=False)
 
     args = arg_parser.parse_args()
 

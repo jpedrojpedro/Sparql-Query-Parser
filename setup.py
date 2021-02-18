@@ -12,7 +12,7 @@ setup(
     download_url='https://github.com/jpedrojpedro/Sparql-Query-Parser/releases',
     platforms=['any'],
     python_requires='>=3.8.2',
-    packages=[],
+    packages=['sqparser'],
     classifiers=[
         'Development Status :: 1 - Planning',
         'Intended Audience :: Developers',
